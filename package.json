@@ -5,8 +5,8 @@
   "main": "index.js",
   "source": "src/index.ts",
   "scripts": {
-    "watch": "parcel watch",
-    "build": "parcel build"
+    "watch": "parcel watch --dist-dir dist",
+    "build": "parcel index.html --dist-dir dist"
   },
   "keywords": [],
   "author": "",
